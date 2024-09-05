@@ -1,0 +1,51 @@
+a) A partir dos dados é possível concluir que o perceptron camada simples funciona? Justifique sua resposta.
+Resposta: Sim, pois os dados são linearmente separaveis, o perceptron deve funcionar e ser capaz de aprender a classificar os dados corretamente.
+
+b) Usando a planilha que fizemos na aula ao vivo, faça os cálculos passando por cada etapa das 6 de treinamento.
+Resposta: Planilha na pasta 'https://github.com/LorayneNeves/.../tree/master/...'
+
+c) Faça a implementação do algoritmo visto em aula, ajuste os pontos necessários para treinar o perceptron para classificar laranjas e maçãs e responda faça a partir do resultado do seu código:
+
+• Como ficou os resultados dos pesos a cada iteração? Obs: algoritmo deve gerar peso inicial aleatoriamente.
+Resposta:
+Entrada1: 113, Entrada2: 6,8
+W1: -0,9836641948654976, W2: 0,12099295917843444
+
+Entrada1: 122, Entrada2: 4,7
+W1: -0,9836641948654976, W2: 0,12099295917843444
+
+Entrada1: 107, Entrada2: 5,2
+W1: 52,5163358051345, W2: 2,7209929591784343
+
+Entrada1: 98, Entrada2: 3,6
+W1: 52,5163358051345, W2: 2,7209929591784343
+
+Entrada1: 115, Entrada2: 2,9
+W1: -4,983664194865497, W2: 1,2709929591784344
+
+Entrada1: 120, Entrada2: 4,2
+W1: -4,983664194865497, W2: 1,2709929591784344
+
+• Depois de treinado com os casos do enunciado, gere 5 novos casos e mostre qual a saída do algoritmo, ou seja, se é laranja ou maçã.
+Resposta:
+Entrada [102, 2,2] => Resultado: 0
+Entrada [110, 6,2] => Resultado: 0
+Entrada [90, 4,5] => Resultado: 0
+Entrada [99, 3,6] => Resultado: 0
+Entrada [125, 5,2] => Resultado: 0
+
+d) Nesse exercício tivemos 6 casos de treinamento, mas em um problema mais complexo onde a variação de características são maiores, descreva porque devemos fazer muitos treinamentos para ter uma melhor RNA.
+Resposta:
+Em problemas mais complexos com muita variação nos dados, é importante fazer muitos treinamentos para criar uma RNA mais eficiente. Alguns motivos abaixo:
+
+1. Maior Variedade de Dados: Mais dados ajudam a RNA a aprender diferentes padrões e características, tornando-a mais precisa.
+
+2. Evitar Overfitting: Com mais dados, a RNA é menos propensa a ajustar-se demais aos dados de treinamento e generaliza melhor para novos dados.
+
+3. Ajuste de Parâmetros: Treinamentos adicionais permitem que a RNA ajuste melhor seus parâmetros para melhorar o desempenho.
+
+4. Reconhecimento de Padrões: Mais dados e treinamentos ajudam a RNA a identificar padrões complexos que podem não ser visíveis com poucos dados.
+
+5. Validação Melhor: Com mais dados, é possível separar parte para validação e teste, garantindo que a RNA funciona bem com dados novos.
+
+Resumindo, mais treinamento e dados ajudam a RNA a aprender melhor e a se ajustar a diferentes situações, resultando em um modelo mais robusto e eficaz.
