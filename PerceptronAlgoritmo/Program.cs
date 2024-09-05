@@ -17,7 +17,12 @@ namespace ConsoleApp1
 				new Entradas(107, 5.2, 1),
 				new Entradas(98, 3.6, 1),
 				new Entradas(115, 2.9, 0),
-				new Entradas(120, 4.2, 0)
+				new Entradas(120, 4.2, 0),
+				new Entradas(102, 2.2, 0),
+				new Entradas(110, 6.2, 1),
+				new Entradas(90, 4.5, 0),
+				new Entradas(99, 3.6, 1),
+				new Entradas(125, 5.2, 0),
 			};
 
 			neuronioArtificial.Treinar(entradas);
